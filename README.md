@@ -22,3 +22,15 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# Prototype
+
+* https://www.mockflow.com/
+
+![Alt text](proto.png "Prototype")
+
+# Data-Model
+
+* Table coins(columns: id:pk, name:string, acronym:string, img_url:string)
+
+
