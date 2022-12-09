@@ -1,0 +1,5 @@
+{
+  "ruby.rubocop.suppressRubocopWarnings": true,
+  "ruby.rubocop.configFilePath": "../.rubocop.yml",
+  "ruby.rubocop.onSave": true
+}
