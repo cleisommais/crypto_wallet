@@ -10,9 +10,10 @@
   <%= @coin.acronym %>
 </p>
 
-<p>
+<p>  
   <strong>Img url:</strong>
   <%= @coin.img_url %>
+  <%= image_tag @coin.img_url, width:35  %>
 </p>
 
 <%= link_to 'Edit', edit_coin_path(@coin) %> |
