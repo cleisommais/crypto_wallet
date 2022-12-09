@@ -27,7 +27,7 @@ Things you may want to cover:
 
 * https://www.mockflow.com/
 
-![Alt text](proto.png "Prototype")
+![Alt text](proto_img.png "Prototype")
 
 # Data-Model
 
