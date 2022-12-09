@@ -1,2 +1,14 @@
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+Style/Encoding:
+  Enabled: false
+
+Layout/IndentationWidth:
+  Enabled: false
+
+Layout/LeadingCommentSpace:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
