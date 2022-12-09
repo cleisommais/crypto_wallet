@@ -3,12 +3,12 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
-
 ## System dependencies
 
-* Ruby 2.7
-* Rails 5.2
+- Ruby 2.7
+- Rails 5.2
+- Bundler 2.1.2
+- Rubocop 1.40.0
 
 ## Database creation
 
@@ -19,9 +19,13 @@ Things you may want to cover:
 
     rails server
 
+## Development instructions
+
+    rubocop -a
 
 ## Deployment instructions
 
+- Todo
 
 ## Prototype
 
