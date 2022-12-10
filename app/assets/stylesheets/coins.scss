@@ -1,9 +1,18 @@
-// Place all the styles related to the Coins controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+table {
+  border: 1px solid black;
+}
 
-table,
-th,
+th {
+  border: 1px solid black;
+  padding: 0 10px;
+}
+
 td {
-    border: 1px solid black;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 10px;
+}
+
+td img {
+  padding-top: 5px;
 }
