@@ -17,6 +17,7 @@ application up and running.
 
 ## How to run the test suite
 
+    rails dev:setup
     rails server
 
 ## Development instructions
