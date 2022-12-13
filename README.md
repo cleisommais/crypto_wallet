@@ -23,6 +23,7 @@ application up and running.
 ## Development instructions
 
     rubocop -a
+    RUBYOPT='-W:no-deprecated' rails g migration AddMiningTypesToCoins mining_type:references
 
 ## Deployment instructions
 
@@ -36,5 +37,5 @@ application up and running.
 
 ## Data-Model
 
-- Model Coin (description:string, acronym:string, img_url:string)
+- Model Coin (description:string acronym:string img_url:string mining_type:references)
 - Model MiningType (description:string acronym:string)
