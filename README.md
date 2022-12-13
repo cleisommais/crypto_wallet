@@ -37,3 +37,4 @@ application up and running.
 ## Data-Model
 
 - Model Coin (description:string, acronym:string, img_url:string)
+- Model MiningType (description:string acronym:string)

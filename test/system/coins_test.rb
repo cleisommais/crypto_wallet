@@ -7,7 +7,7 @@ class CoinsTest < ApplicationSystemTestCase
 
   test 'visiting the index' do
     visit coins_url
-    assert_selector 'h1', text: 'Coins'
+    assert_selector 'h3', text: 'Coins'
   end
 
   test 'creating a Coin' do

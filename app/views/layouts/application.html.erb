@@ -10,9 +10,15 @@
   </head>
 
   <body>
+    <header>
+      <h1>Header</h1>
+      <p><strong>Date: </strong><%= date_to_br %></p>
+    </header>
+    <hr />
     <%= yield %>
+    <hr />
+    <footer>
+        <p>Environment: <strong><%=Rails.env%></strong></p>
+    </footer>    
   </body>
-  <footer>
-    <p><%=@query_param %></p>
-  </footer>
 </html>
