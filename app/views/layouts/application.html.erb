@@ -13,7 +13,8 @@
     <header>      
       <div style='display: block; float: left; width:20%'><a href='/' ><%= image_tag 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDAWT2U5O8J39bJcZrCZQR03gny3NFBq8oqsl1aAme3gcHN91tf5Z3A17toyH0itZV5gk&usqp=CAU', width:100  %></a></div>
       <h1 style='display: block; float: left; width:80%'>Header</h1>
-      <p><strong>Date: </strong><%= date_to_br %></p>
+      <p><strong>Date: </strong><%= Date.today %></p>
+      <p><strong>Language: </strong><%= I18n.locale %></p>
     </header>
     <hr style='display: block; float: left; width:100%' />
     <%= yield %>
