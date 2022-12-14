@@ -1,5 +1,3 @@
 class WelcomeController < ApplicationController
-  def index
-    @query_param = params[:param]
-  end
+    def index; end
 end
