@@ -1,0 +1,14 @@
+pt:
+  hello: 'Olá Mundo'
+  date-str: 'Data'
+  language: 'Linguagem'
+  welcome: 'Bem Vindo'
+  environment: 'Ambiente'
+  header: 'Cabeçalho'
+  date:
+    formats:
+      default: '%d/%m/%Y'
+  menu:
+    add:
+      coins: 'Adiciona Moedas'
+      mining-types: 'Adiciona Tipos de Moedas'
