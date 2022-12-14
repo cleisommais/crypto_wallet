@@ -11,4 +11,24 @@ pt:
   menu:
     add:
       coins: 'Adiciona Moedas'
-      mining-types: 'Adiciona Tipos de Moedas'
+      mining-types: 'Adiciona Tipos de Mineração'
+  activerecord:
+    models:
+      coin: 'Moeda'
+      mining_type: 'Tipo de mineração'
+    attributes:
+      coin:
+        id: 'Código'
+        description: 'Descrição'
+        acronym: 'Acrônimo'
+        img_url: 'Imagem URL'
+        updated_at: 'Atualizado em'
+        created_at: 'Criado em'
+        mining_type: 'Tipo de Mineração'
+        mining_type_id: 'Código Tipo de Mineração'
+      mining_type:
+        id: 'Código'
+        description: 'Descrição'
+        acronym: 'Acrônimo'
+        updated_at: 'Atualizado em'
+        created_at: 'Criado em'
