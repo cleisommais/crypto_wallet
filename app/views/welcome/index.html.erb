@@ -1,11 +1,11 @@
 <h3><%= I18n.t('welcome') %></h3>
 <nav>
-    <ul>
-        <li>
-            <%= link_to I18n.t('menu.add.coins'), coins_path %>
+    <ul class='nav justify-content'>
+        <li class='nav-item'>
+            <%= link_to I18n.t('menu.add.coins'), coins_path, class: 'nav-link' %>
         </li>
         <li>
-            <%= link_to I18n.t('menu.add.mining-types'), mining_types_path %>
+            <%= link_to I18n.t('menu.add.mining-types'), mining_types_path, class: 'nav-link' %>
         </li>    
     </ul>
 </nav>

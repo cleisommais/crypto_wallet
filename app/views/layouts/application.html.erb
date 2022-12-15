@@ -6,21 +6,37 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag 'scaffolds', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag params[:controller], media: 'all', 'data-turbolinks-track': 'reload' %>    
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag params[:controller], 'data-turbolinks-track': 'reload' %>    
   </head>
 
-  <body>
-    <header>      
-      <div style='display: block; float: left; width:20%'><a href='/' ><%= image_tag 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDAWT2U5O8J39bJcZrCZQR03gny3NFBq8oqsl1aAme3gcHN91tf5Z3A17toyH0itZV5gk&usqp=CAU', width:100  %></a></div>
-      <h1 style='display: block; float: left; width:80%'><%= I18n.t('header') %></h1>
-      <p><strong><%= I18n.t('date-str') %>: </strong><%= I18n.l(Date.today) %></p>
-      <p><strong><%= I18n.t('language') %>: </strong><%= I18n.locale %></p>
+  <body class='container-fluid'>
+    <header class=''>   
+      <div class="row justify-content-md-center">
+        <div class="col-1">
+          <a href='/' >
+            <%= image_tag 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDAWT2U5O8J39bJcZrCZQR03gny3NFBq8oqsl1aAme3gcHN91tf5Z3A17toyH0itZV5gk&usqp=CAU', width:100  %>
+          </a>
+        </div>
+        <div class="col-11">
+          <h1 class="display-3"><%= I18n.t('header') %></h1>          
+        </div>
+      </div>  
+      <div class="row">
+        <div class="col-2">
+          <p><strong><%= I18n.t('date-str') %>: </strong><%= I18n.l(Date.today) %></p>
+        </div>
+        <div class="col-2">
+          <p><strong><%= I18n.t('language') %>: </strong><%= I18n.locale %></p>
+        </div>
+        <div class="col-8"></div>        
+      </div>            
     </header>
-    <hr style='display: block; float: left; width:100%' />
-    <%= yield %>
+    <hr />
+    <main>
+      <%= yield %>    
+    </main>
     <hr />
     <footer>
         <p><%= I18n.t('environment') %>: <strong><%=Rails.env%></strong></p>
