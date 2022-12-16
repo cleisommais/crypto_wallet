@@ -19,6 +19,7 @@ application up and running.
 
     rails dev:setup
     rails server
+    5726173658acde7840950fee26d6c881
 
 ## Development instructions
 
